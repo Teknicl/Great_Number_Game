@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    justify-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: purple;
+}
+
+.number {
+    color: red;
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainform {
+    height: 50px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    border-radius: 20px 20px;
+    border: solid black 1px;
+}
+
+input {
+    height: 30px;
+    width: 100px;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+button {
+    height: 40px;
+    border-radius: 10px 10px;
+}
+
+.Correct {
+    height: 150px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    border-radius: 20px 20px;
+    border: solid black 1px;
+}
+
+.Correct button {
+    margin: 0px 10px 0px 10px;
+}
+
+.High {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 80px 80px;
+    border: solid black 1px;
+}
+
+.Low {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    border-radius: 80px 80px;
+    border: solid black 1px; 
+}
